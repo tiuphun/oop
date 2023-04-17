@@ -31,3 +31,19 @@ It is a good practice to always assign access modifier to attributes and methods
 * No return value (even `void`)
 * Can use access modifier (public, private...)
 * Can do anything inside here -> Usually used for declaring attributes
+
+# this
+1. Allow for clear understanding when parameters' names and attributes'names are the same.
+
+    ```js
+    public Student (String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+    ```
+2. The setter method are preferred over declaring with `this` inside constructor.
+    -> Flexible access modifier assignment
+    -> Avoid duplicate codes
+3. Allow for constructors to call each other.
+
+> Normal methods are NOT allowed to have the same signature; as of constructor. However, a constructor and a normal method could have the same signature.
