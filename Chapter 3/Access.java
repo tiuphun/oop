@@ -1,6 +1,6 @@
 package lesson3;
 
-public class A {
+public class Access {
     public int a1;  // PUBLIC   -> Accessible everywhere
     int a2;         // DEFAULT  -> Accessible inside package lesson3 only
     private int a3; // PRIVATE  -> Only accessible inside class A

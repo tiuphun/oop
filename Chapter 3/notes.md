@@ -19,3 +19,15 @@
 1. Non-void methods should always have `return` statement.
 2. Void methods can have `return` or not.
 3. Only return at most 1 value.
+
+# ENCAPSULATION & DATA HIDING
+It is a good practice to always assign access modifier to attributes and methods.
+-> Attributes should be `private`, while the corresponding methods should be `public`
+->  `getX` method: retrieve info, no modify (read)
+    `setX` method: modify X (write)
+
+# CONSTRUCTOR
+* Same name
+* No return value (even `void`)
+* Can use access modifier (public, private...)
+* Can do anything inside here -> Usually used for declaring attributes
