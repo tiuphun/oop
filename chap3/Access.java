@@ -1,4 +1,4 @@
-package lesson3;
+package chap3;
 
 public class Access {
     public int a1;  // PUBLIC   -> Accessible everywhere

@@ -1,4 +1,4 @@
-package lesson4;
+package chap3;
 
 public class BankAccount {
     int i = 0;  // i is an attribute (variable inside class); default value = 0 
