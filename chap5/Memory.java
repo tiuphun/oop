@@ -1,3 +1,5 @@
+import student.Student;
+
 public class Memory {
     public static void main(String[] args) {
         Student m = new Student("Tieu", 20);

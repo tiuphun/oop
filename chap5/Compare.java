@@ -1,5 +1,5 @@
 // Not object comparison: Ref comparison - whether they point to the same object
-import student.*;
+import student.Student;
 public class Compare {
     public static void main(String[] args) {
         Student s1 = new Student("Tieu", 20);
